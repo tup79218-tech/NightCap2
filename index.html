@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NightCap | End the Day Calm</title>
+  <meta
+    name="description"
+    content="NightCap is a guided nighttime routine app with a checklist, a next-day planner, and a short meditation to help users wind down without stress."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="NightCap home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">NightCap</span>
+    </a>
+      
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <h1>A night routine to close the day and prepare for tomorrow.</h1>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#cta">Join the waitlist</a>
+          </div>
+
+          <ul class="hero-points" aria-label="NightCap benefits">
+            <li>Replace late-night overthinking with a guided routine</li>
+            <li>Build a wind-down flow that fits real habits</li>
+            <li>Wake up with tomorrow already organized</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="device-frame">
+            <div class="device-header">
+              <span>11:08 PM</span>
+              <span>NightCap App PREVIEW</span>
+            </div>
+
+            <div class="device-card routine-card">
+              <div class="card-heading">
+                <p>Tonight's routine</p>
+                <span>Custom sequence</span>
+              </div>
+
+              <div class="routine-item complete">
+                <span class="routine-check"></span>
+                <div>
+                  <strong>Skincare routine</strong>
+                  <p>5 minutes</p>
+                </div>
+              </div>
+
+              <div class="routine-item complete">
+                <span class="routine-check"></span>
+                <div>
+                  <strong>Put phone on Do Not Disturb mode</strong>
+                  <p>Done</p>
+                </div>
+              </div>
+
+              <div class="routine-item">
+                <span class="routine-check"></span>
+                <div>
+                  <strong>Set Alarm</strong>
+                  <p>7:30 AM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="device-card planner-card">
+              <div class="card-heading">
+                <p>Tomorrow planner</p>
+                <span>Brain dump before bed</span>
+              </div>
+
+              <ul class="planner-list">
+                <li>Finish slide deck for class</li>
+                <li>Email project team at 10 AM</li>
+                <li>Gym after lab</li>
+                <li>Pick up groceries</li>
+              </ul>
+            </div>
+
+            <div class="device-card meditation-card">
+              <div class="card-heading">
+                <p>Relaxation moment</p>
+                <span>Short meditation</span>
+              </div>
+
+              <div class="breath-orb" aria-hidden="true"></div>
+              <p class="meditation-text">Inhale slowly, relax, and let the day end here.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section reveal" id="cta">
+        <div class="cta-panel">
+          <h2>Join the waitlist</h2>
+
+          <form
+            class="waitlist-form"
+            action="https://formspree.io/f/mwvwjkga"
+            method="POST"
+          >
+            <div class="waitlist-row">
+              <input
+                id="waitlist-email"
+                class="form-input"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                autocomplete="email"
+                inputmode="email"
+                required
+              >
+              <button class="button button-primary waitlist-submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
